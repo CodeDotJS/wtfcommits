@@ -1,0 +1,48 @@
+{
+  "name": "wtfcommits",
+  "version": "1.0.0",
+  "description": "Motherfucking commits straight from the goddamn console.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeDotJS/wtfcommits.git"
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (rishigiri.com)",
+  "bin": {
+    "wtf": "cli.js"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "cli",
+    "random",
+    "commit",
+    "messages"
+  ],
+  "dependencies": {
+    "got": "^5.7.1",
+    "log-update": "^2.0.0",
+    "ora": "^1.3.0",
+    "update-notifier": "^2.2.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.2.2",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "bugs": {
+    "url": "https://github.com/CodeDotJS/wtfcommits/issues"
+  },
+  "homepage": "https://github.com/CodeDotJS/wtfcommits#readme",
+  "main": "cli.js"
+}
